@@ -14,11 +14,12 @@ def move_files(source_dir, destination_dir):
                 print('File not found')
     else:
         print('Source directory not found')
-
+#Change the path of source and destination directory according to your need 
 source_dir = "/home/soul/Downloads/VideoDownloader/"
 destination_dir = "/home/soul/Downloads/Templates"
 
 while True:
     move_files(source_dir, destination_dir)
+    #change the time based on your requirement
     time.sleep(15)
 
